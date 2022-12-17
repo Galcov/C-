@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    setlocale(LC_ALL, "ru");
+    int x, y;
+    cout << "введите x: ";
+    cin >> x;
+    cout << "введите y: ";
+    cin >> y;
+    int summ = x*x + y*y;
+    cout << "  x*x + y*y = " << summ << endl;
+    summ = x*x - y*y;
+    cout << " x*x - y*y = " << summ << endl;
+    summ = x*x * y*y;
+    cout << " x*x * y*y = " << summ << endl;
+    summ = (x*x) / (y*y);
+    cout << " (x*x) / (y*y) = " << summ << endl;
+    return 0;
+}
